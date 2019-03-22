@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript">
+      var anPares = [];
+      var anImpares = [];
+      var nValor;
+      var nIdx = 0;
+
+      for (var nIdx = 0; nIdx < 50; nIdx++) {
+        nValor = Math.floor((Math.random() * 100) + 1);
+        if (nValor % 2 == 0) {
+          anPares.push(nValor);
+          //alert(nValor + " Par");
+        }
+        else {
+          anImpares.push(nValor);
+          //alert(nValor + " Impar");
+        }
+      }
+      alert("El array pares tiene " + anPares.length + " elementos.");
+      alert("El array impares tiene " + anImpares.length + " elementos.");
+      </script>
+    <title>NVL-JS-P10a</title>
+  </head>
+  <body>
+
+  </body>
+</html>
